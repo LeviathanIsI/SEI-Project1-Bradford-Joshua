@@ -1,0 +1,37 @@
+.topbuttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottombuttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.redbutton {
+  background-color: #c30010;
+  height: 200px;
+  width: 200px;
+  border-radius: 40px;
+}
+
+.bluebutton {
+  background-color: #0000ff;
+  height: 200px;
+  width: 200px;
+  border-radius: 40px;
+}
+
+.greenbutton {
+  background-color: #03ac13;
+  height: 200px;
+  width: 200px;
+  border-radius: 40px;
+}
+
+.yellowbutton {
+  background-color: #fff000;
+  height: 200px;
+  width: 200px;
+  border-radius: 40px;
+}
