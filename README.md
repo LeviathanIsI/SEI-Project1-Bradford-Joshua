@@ -83,8 +83,6 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `LeviathanIsI`, `SEI-Project1-Bradford-Joshua`, `joshua-bradford-0b97111a6`, `Gmail`, `joshua.r.bradford1@gmail.com`, `Simon`, `project_description`
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
