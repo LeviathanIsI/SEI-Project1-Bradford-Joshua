@@ -31,11 +31,24 @@ function randomSequenceGenerator() {
 //Thoughts are to get the iteration happening first without worrying about user input and then code in the user input once the iteration is working
 
 function playGame() {
-  randomSequenceGenerator();
-  console.log(randomButtonSequence);
+  startButton.addEventListener("click", function () {
+    randomSequenceGenerator();
+    console.log(randomButtonSequence);
+    changeButtonColor();
+  });
 }
 
-function changeButtonColor() {}
+function changeButtonColor() {
+  if (randomButtonSequence[0]) {
+    greenButton.style.backgroundColor = "#00FF00";
+  } else if (randomButtonSequence[1]) {
+    redButton.style.backgroundColor = "#FF0000";
+  } else if (randomButtonSequence[2]) {
+    yellowButton.style.backgroundColor = "#FFFF00";
+  } else {
+    blueButton.style.backgroundColor = "#0000FF";
+  }
+}
 
 // Listens for and compares the user input to the generated sequence
 function userInput() {}
