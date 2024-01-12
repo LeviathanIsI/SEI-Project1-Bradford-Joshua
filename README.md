@@ -185,7 +185,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Simon by Joshua Bradford is marked with CC0 1.0 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
