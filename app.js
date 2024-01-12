@@ -17,7 +17,6 @@ let timer = document.querySelector(".timer");
 
 let buttons = [greenButton, redButton, yellowButton, blueButton];
 let randomButtonSequence = [];
-let gameOver = false;
 
 //Provides a progressive sequence for the user to mimic
 function randomSequenceGenerator() {
@@ -28,7 +27,10 @@ function randomSequenceGenerator() {
   }
 }
 
-function playGame() {}
+function playGame() {
+  randomSequenceGenerator();
+  console.log(randomButtonSequence);
+}
 
 function changeButtonColor() {}
 
@@ -42,11 +44,16 @@ function invalidSequence() {
   }
 }
 
+function restartGame() {
+  restartButton.addEventListener("click", function () {
+    location.reload();
+  });
+}
+
 function endGame() {
   if (invalidSequence()) {
   }
 }
 
-randomSequenceGenerator();
-console.log(randomButtonSequence);
-changeButtonColor();
+playGame();
+restartGame();

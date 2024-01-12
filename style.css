@@ -17,6 +17,11 @@
   margin-left: 250px;
 }
 
+.startbutton,
+.restartbutton {
+  cursor: pointer;
+}
+
 .timer {
   margin-bottom: 100px;
 }
