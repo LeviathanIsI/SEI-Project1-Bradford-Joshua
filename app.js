@@ -5,6 +5,9 @@ let greenButton = document.querySelector(".greenbutton");
 let redButton = document.querySelector(".redbutton");
 let yellowButton = document.querySelector(".yellowbutton");
 let blueButton = document.querySelector(".bluebutton");
+let startButton = document.querySelector(".startbutton");
+let restartButton = document.querySelector(".restartbutton");
+let timer = document.querySelector(".timer");
 
 // Add event listeners to each button
 // greenButton.addEventListener("click", userInput);
@@ -14,22 +17,36 @@ let blueButton = document.querySelector(".bluebutton");
 
 let buttons = [greenButton, redButton, yellowButton, blueButton];
 let randomButtonSequence = [];
+let gameOver = false;
 
 //Provides a progressive sequence for the user to mimic
-function randomSequence() {
-  let randomIndex = Math.floor(Math.random() * buttons.length);
-  let randomButton = buttons[randomIndex];
-  randomButtonSequence.push(randomButton);
+function randomSequenceGenerator() {
+  for (i = 0; i < 100; i++) {
+    let randomIndex = Math.floor(Math.random() * buttons.length);
+    let randomButton = buttons[randomIndex];
+    randomButtonSequence.push(randomButton);
+  }
 }
+
+function playGame() {}
+
+function changeButtonColor() {}
 
 // Listens for and compares the user input to the generated sequence
 function userInput() {}
 
-// Check to see if the provide sequence is valid
-function invalidSequence() {}
+// Check to see if the provided sequence is valid
+function invalidSequence() {
+  if (userInput() !== randomButtonSequence) {
+    return true;
+  }
+}
 
-// Timer function between button clicks
-function timer() {}
+function endGame() {
+  if (invalidSequence()) {
+  }
+}
 
-randomSequence();
+randomSequenceGenerator();
 console.log(randomButtonSequence);
+changeButtonColor();

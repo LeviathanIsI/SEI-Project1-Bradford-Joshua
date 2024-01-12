@@ -8,6 +8,19 @@
   flex-direction: row;
 }
 
+.gamemenu {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 250px;
+}
+
+.timer {
+  margin-bottom: 100px;
+}
+
 .redbutton {
   background-color: #c30010;
   height: 200px;
