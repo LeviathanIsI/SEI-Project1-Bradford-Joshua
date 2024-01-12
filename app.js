@@ -1,62 +1,82 @@
-//Initialize Buttons
-let topButtons = document.querySelector(".topbuttons");
-let bottomButtons = document.querySelector(".bottombuttons");
+// Initialize Buttons
 let greenButton = document.querySelector(".greenbutton");
 let redButton = document.querySelector(".redbutton");
 let yellowButton = document.querySelector(".yellowbutton");
 let blueButton = document.querySelector(".bluebutton");
 let startButton = document.querySelector(".startbutton");
 let restartButton = document.querySelector(".restartbutton");
-let timer = document.querySelector(".timer");
-
-// Add event listeners to each button
-// greenButton.addEventListener("click", userInput);
-// redButton.addEventListener("click", userInput);
-// yellowButton.addEventListener("click", userInput);
-// blueButton.addEventListener("click", userInput);
 
 let buttons = [greenButton, redButton, yellowButton, blueButton];
-let randomButtonSequence = [];
+let sequence = [];
+let playerSequence = [];
+let level = 0;
+let sequenceIndex = 0;
 
-//Provides a progressive sequence for the user to mimic
-function randomSequenceGenerator() {
-  for (i = 0; i < 100; i++) {
-    let randomIndex = Math.floor(Math.random() * buttons.length);
-    let randomButton = buttons[randomIndex];
-    randomButtonSequence.push(randomButton);
-  }
-}
-
-//Need to figure out how to iterate through the randomButtonSequence one index at a time, while also waiting for the user input between each iteration
-//Thoughts are to get the iteration happening first without worrying about user input and then code in the user input once the iteration is working
-
-function playGame() {
+function startGame() {
   startButton.addEventListener("click", function () {
+    level = 1;
+    playerSequence = [];
+    sequence = [];
     randomSequenceGenerator();
-    console.log(randomButtonSequence);
-    changeButtonColor();
+    displaySequence();
   });
 }
 
-function changeButtonColor() {
-  if (randomButtonSequence[0]) {
-    greenButton.style.backgroundColor = "#00FF00";
-  } else if (randomButtonSequence[1]) {
-    redButton.style.backgroundColor = "#FF0000";
-  } else if (randomButtonSequence[2]) {
-    yellowButton.style.backgroundColor = "#FFFF00";
+function randomSequenceGenerator() {
+  sequence.push(buttons[Math.floor(Math.random() * buttons.length)]);
+}
+
+function displaySequence() {
+  if (sequenceIndex < sequence.length) {
+    let button = sequence[sequenceIndex];
+    flashButton(button);
+    sequenceIndex++;
+    setTimeout(displaySequence, 1000); // Adjust time for next button flash
   } else {
-    blueButton.style.backgroundColor = "#0000FF";
+    sequenceIndex = 0;
+    enableUserInput();
   }
 }
 
-// Listens for and compares the user input to the generated sequence
-function userInput() {}
+function flashButton(button) {
+  let originalColor = button.style.backgroundColor;
+  button.style.backgroundColor = "white"; // Change this to the highlight color
+  setTimeout(() => {
+    button.style.backgroundColor = originalColor;
+  }, 500); // Adjust time for flash duration
+}
 
-// Check to see if the provided sequence is valid
-function invalidSequence() {
-  if (userInput() !== randomButtonSequence) {
-    return true;
+function enableUserInput() {
+  buttons.forEach((button) => {
+    button.addEventListener("click", userInput);
+  });
+}
+
+function disableUserInput() {
+  buttons.forEach((button) => {
+    button.removeEventListener("click", userInput);
+  });
+}
+
+function userInput(event) {
+  let clickedButton = event.target;
+  playerSequence.push(clickedButton);
+  if (
+    playerSequence[playerSequence.length - 1] !==
+    sequence[playerSequence.length - 1]
+  ) {
+    alert("Game Over! Wrong sequence.");
+    disableUserInput();
+    return;
+  }
+  if (playerSequence.length === sequence.length) {
+    level++;
+    playerSequence = [];
+    disableUserInput();
+    setTimeout(() => {
+      randomSequenceGenerator();
+      displaySequence();
+    }, 1000);
   }
 }
 
@@ -66,10 +86,5 @@ function restartGame() {
   });
 }
 
-function endGame() {
-  if (invalidSequence()) {
-  }
-}
-
-playGame();
+startGame();
 restartGame();
