@@ -27,6 +27,9 @@ function randomSequenceGenerator() {
   }
 }
 
+//Need to figure out how to iterate through the randomButtonSequence one index at a time, while also waiting for the user input between each iteration
+//Thoughts are to get the iteration happening first without worrying about user input and then code in the user input once the iteration is working
+
 function playGame() {
   randomSequenceGenerator();
   console.log(randomButtonSequence);
