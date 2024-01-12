@@ -11,6 +11,12 @@ let sequence = [];
 let playerSequence = [];
 let level = 0;
 let sequenceIndex = 0;
+const brighterColors = new Map([
+  [greenButton, "#99ff66"], // Brighter green
+  [redButton, "#FF6B6B"], // Brighter red
+  [yellowButton, "#FFFF99"], // Brighter yellow
+  [blueButton, "#99CCFF"], // Brighter blue
+]);
 
 function startGame() {
   startButton.addEventListener("click", function () {
@@ -31,7 +37,7 @@ function displaySequence() {
     let button = sequence[sequenceIndex];
     flashButton(button);
     sequenceIndex++;
-    setTimeout(displaySequence, 1000); // Adjust time for next button flash
+    setTimeout(displaySequence, 1000);
   } else {
     sequenceIndex = 0;
     enableUserInput();
@@ -40,10 +46,11 @@ function displaySequence() {
 
 function flashButton(button) {
   let originalColor = button.style.backgroundColor;
-  button.style.backgroundColor = "white"; // Change this to the highlight color
+  let brightColor = brighterColors.get(button);
+  button.style.backgroundColor = brightColor;
   setTimeout(() => {
     button.style.backgroundColor = originalColor;
-  }, 500); // Adjust time for flash duration
+  }, 500);
 }
 
 function enableUserInput() {
