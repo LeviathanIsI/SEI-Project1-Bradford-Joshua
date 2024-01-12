@@ -20,29 +20,28 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua">
+    <img src="https://i.imgur.com/cFId6z1.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Simon</h3>
 
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua/issues">Request Feature</a>
   </p>
 </div>
 
@@ -66,7 +65,7 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#"></a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -78,11 +77,15 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<<<<<<< HEAD
 ### Built With
+=======
+
+
+<!--### Built With
+>>>>>>> 8978049882cdee255ffcd748fd1fac3708cdb6bf
 
 - [![Next][Next.js]][Next-url]
 - [![React][React.js]][React-url]
@@ -93,7 +96,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 - [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 - [![JQuery][JQuery.com]][JQuery-url]
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 <!-- GETTING STARTED -->
 
@@ -116,7 +119,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua.git
    ```
 3. Install NPM packages
    ```sh
@@ -148,7 +151,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
   - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -173,7 +176,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua">Simon</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/LeviathanIsI">Joshua Bradford</a> is marked with <a href="http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC0 1.0 Universal<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1"></a></p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -181,9 +184,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Joshua Bradford - ([LinkedIn](https://www.linkedin.com/in/joshua-bradford-0b97111a6/)) - ([Email](mailto:joshua.r.bradford1@gmail.com))
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+[Project Link](https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -199,6 +202,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+<<<<<<< HEAD
 
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
 [contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
@@ -210,8 +214,20 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [issues-url]: https://github.com/github_username/repo_name/issues
 [license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+=======
+[contributors-shield]: https://img.shields.io/github/contributors/LeviathanIsI/SEI-Project1-Bradford-Joshua.svg?style=for-the-badge
+[contributors-url]: https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/LeviathanIsI/SEI-Project1-Bradford-Joshua.svg?style=for-the-badge
+[forks-url]: https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua/network/members
+[stars-shield]: https://img.shields.io/github/stars/LeviathanIsI/SEI-Project1-Bradford-Joshua.svg?style=for-the-badge
+[stars-url]: https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua/stargazers
+[issues-shield]: https://img.shields.io/github/issues/LeviathanIsI/SEI-Project1-Bradford-Joshua.svg?style=for-the-badge
+[issues-url]: https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua/issues
+[license-shield]: https://img.shields.io/github/license/LeviathanIsI/SEI-Project1-Bradford-Joshua.svg?style=for-the-badge
+[license-url]: https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua/blob/master/LICENSE.txt
+>>>>>>> 8978049882cdee255ffcd748fd1fac3708cdb6bf
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/joshua-bradford-0b97111a6
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
@@ -228,4 +244,8 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+<<<<<<< HEAD
 [JQuery-url]: https://jquery.com
+=======
+[JQuery-url]: https://jquery.com 
+>>>>>>> 8978049882cdee255ffcd748fd1fac3708cdb6bf
