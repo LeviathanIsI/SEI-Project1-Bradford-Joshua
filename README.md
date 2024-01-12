@@ -191,7 +191,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@](https://twitter.com/) - joshua.r.bradford1@gmail.com@Gmail.com
+Joshua Bradford - ([https://twitter.com/](https://www.linkedin.com/in/joshua-bradford-0b97111a6/)) - joshua.r.bradford1@gmail.com
 
 Project Link: [https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua](https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua)
 
