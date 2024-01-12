@@ -33,7 +33,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Simon</h3>
 
   <p align="center">
     project_description
@@ -84,7 +84,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `LeviathanIsI`, `SEI-Project1-Bradford-Joshua`, ``, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `LeviathanIsI`, `SEI-Project1-Bradford-Joshua`, `joshua-bradford-0b97111a6`, `Gmail`, `joshua.r.bradford1@gmail.com`, `Simon`, `project_description`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -194,7 +194,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@](https://twitter.com/) - email@email_client.com
+Your Name - [@](https://twitter.com/) - joshua.r.bradford1@gmail.com@Gmail.com
 
 Project Link: [https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua](https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua)
 
@@ -226,7 +226,7 @@ Project Link: [https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua](htt
 [license-shield]: https://img.shields.io/github/license/LeviathanIsI/SEI-Project1-Bradford-Joshua.svg?style=for-the-badge
 [license-url]: https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/joshua-bradford-0b97111a6
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
