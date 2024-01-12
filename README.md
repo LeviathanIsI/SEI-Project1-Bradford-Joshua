@@ -29,7 +29,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://imgur.com/cFId6z1" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Simon</h3>
