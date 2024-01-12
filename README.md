@@ -191,7 +191,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Joshua Bradford - ([LinkedIn](https://www.linkedin.com/in/joshua-bradford-0b97111a6/)) - ([Email]joshua.r.bradford1@gmail.com)
+Joshua Bradford - ([LinkedIn](https://www.linkedin.com/in/joshua-bradford-0b97111a6/)) - ([Email]mailto:joshua.r.bradford1@gmail.com)
 
 Project Link: [https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua](https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua)
 
