@@ -6,6 +6,12 @@ let blueButton = document.querySelector(".bluebutton");
 let startButton = document.querySelector(".startbutton");
 let restartButton = document.querySelector(".restartbutton");
 
+//Get access to button audio files
+const greenButtonSound = document.querySelector("#greenbuttonsound");
+const rednButtonSound = document.querySelector("#rednbuttonsound");
+const yellowButtonSound = document.querySelector("#yellowbuttonsound");
+const blueButtonSound = document.querySelector("#bluebuttonsound");
+
 let buttons = [greenButton, redButton, yellowButton, blueButton];
 let sequence = [];
 let playerSequence = [];
