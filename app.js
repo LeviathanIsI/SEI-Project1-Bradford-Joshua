@@ -12,10 +12,10 @@ let playerSequence = [];
 let level = 0;
 let sequenceIndex = 0;
 const brighterColors = new Map([
-  [greenButton, "#99ff66"], // Brighter green
-  [redButton, "#FF6B6B"], // Brighter red
-  [yellowButton, "#FFFF99"], // Brighter yellow
-  [blueButton, "#99CCFF"], // Brighter blue
+  [greenButton, "#99ff66"],
+  [redButton, "#FF6B6B"],
+  [yellowButton, "#FFFF99"],
+  [blueButton, "#99CCFF"],
 ]);
 
 function startGame() {
