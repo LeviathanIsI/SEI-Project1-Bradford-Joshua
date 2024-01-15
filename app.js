@@ -8,9 +8,10 @@ let restartButton = document.querySelector(".restartbutton");
 
 //Get access to button audio files
 const greenButtonSound = document.querySelector("#greenbuttonsound");
-const rednButtonSound = document.querySelector("#rednbuttonsound");
+const rednButtonSound = document.querySelector("#redbuttonsound");
 const yellowButtonSound = document.querySelector("#yellowbuttonsound");
 const blueButtonSound = document.querySelector("#bluebuttonsound");
+const invalidSound = document.querySelector("#invalidsound");
 
 let buttons = [greenButton, redButton, yellowButton, blueButton];
 let sequence = [];
