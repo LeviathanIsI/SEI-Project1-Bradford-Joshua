@@ -53,10 +53,22 @@ function randomSequenceGenerator() {
 
 function displaySequence() {
   if (sequenceIndex < sequence.length) {
-    let button = sequence[sequenceIndex];
-    flashButton(button);
-    sequenceIndex++;
-    setTimeout(displaySequence, 1000);
+    if (level <= 5) {
+      let button = sequence[sequenceIndex];
+      flashButton(button);
+      sequenceIndex++;
+      setTimeout(displaySequence, 1000);
+    } else if (level >= 5 && level <= 10) {
+      let button = sequence[sequenceIndex];
+      flashButton(button);
+      sequenceIndex++;
+      setTimeout(displaySequence, 500);
+    } else if (level >= 10 && level <= 20) {
+      let button = sequence[sequenceIndex];
+      flashButton(button);
+      sequenceIndex++;
+      setTimeout(displaySequence, 100);
+    }
   } else {
     sequenceIndex = 0;
     enableUserInput();
