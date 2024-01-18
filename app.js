@@ -43,6 +43,7 @@ function startGame() {
     sequence = [];
     randomSequenceGenerator();
     displaySequence();
+    endGameText.innerText = "Good luck, have fun!";
   });
 }
 
@@ -76,11 +77,19 @@ function enableUserInput() {
   buttons.forEach((button) => {
     button.addEventListener("click", userInput);
   });
+
+  buttons.forEach((button) => {
+    button.addEventListener("touchstart", userInput);
+  });
 }
 
 function disableUserInput() {
   buttons.forEach((button) => {
     button.removeEventListener("click", userInput);
+  });
+
+  buttons.forEach((button) => {
+    button.removeEventListener("touchstart", userInput);
   });
 }
 
@@ -94,7 +103,6 @@ function userInput(event) {
     endGameText.innerText = "Game Over! Wrong sequence.";
     invalidSound.play();
     disableUserInput();
-
     return;
   }
   if (playerSequence.length === sequence.length) {
