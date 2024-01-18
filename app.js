@@ -13,6 +13,10 @@ const yellowButtonSound = document.querySelector("#yellowbuttonsound");
 const blueButtonSound = document.querySelector("#bluebuttonsound");
 const invalidSound = document.querySelector("#invalidsound");
 
+//Get access to text fields
+let timerText = document.querySelector(".timer");
+let endGameText = document.querySelector(".endgametext");
+
 let buttons = [greenButton, redButton, yellowButton, blueButton];
 let sequence = [];
 let playerSequence = [];
@@ -87,7 +91,7 @@ function userInput(event) {
     playerSequence[playerSequence.length - 1] !==
     sequence[playerSequence.length - 1]
   ) {
-    alert("Game Over! Wrong sequence.");
+    endGameText.innerText = "Game Over! Wrong sequence.";
     invalidSound.play();
     disableUserInput();
 
