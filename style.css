@@ -32,28 +32,28 @@ body {
 }
 
 .redbutton {
-  background-color: #c30010;
+  background-color: #ff6b6b;
   height: 200px;
   width: 200px;
   border-radius: 40px;
 }
 
 .bluebutton {
-  background-color: #0000ff;
+  background-color: #99ccff;
   height: 200px;
   width: 200px;
   border-radius: 40px;
 }
 
 .greenbutton {
-  background-color: #03ac13;
+  background-color: #99ff66;
   height: 200px;
   width: 200px;
   border-radius: 40px;
 }
 
 .yellowbutton {
-  background-color: #fff000;
+  background-color: #ffff99;
   height: 200px;
   width: 200px;
   border-radius: 40px;

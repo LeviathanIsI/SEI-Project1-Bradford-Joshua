@@ -19,10 +19,17 @@ let playerSequence = [];
 let level = 0;
 let sequenceIndex = 0;
 const brighterColors = new Map([
-  [greenButton, "#99ff66"],
-  [redButton, "#FF6B6B"],
-  [yellowButton, "#FFFF99"],
-  [blueButton, "#99CCFF"],
+  [greenButton, "#03ac13"],
+  [redButton, "#c30010"],
+  [yellowButton, "#fff000"],
+  [blueButton, "#0000ff"],
+]);
+
+const buttonSounds = new Map([
+  [greenButton, greenButtonSound],
+  [redButton, rednButtonSound],
+  [yellowButton, yellowButtonSound],
+  [blueButton, blueButtonSound],
 ]);
 
 function startGame() {
@@ -54,6 +61,7 @@ function displaySequence() {
 function flashButton(button) {
   let originalColor = button.style.backgroundColor;
   let brightColor = brighterColors.get(button);
+  buttonSounds.get(button).play();
   button.style.backgroundColor = brightColor;
   setTimeout(() => {
     button.style.backgroundColor = originalColor;
@@ -80,7 +88,9 @@ function userInput(event) {
     sequence[playerSequence.length - 1]
   ) {
     alert("Game Over! Wrong sequence.");
+    invalidSound.play();
     disableUserInput();
+
     return;
   }
   if (playerSequence.length === sequence.length) {
