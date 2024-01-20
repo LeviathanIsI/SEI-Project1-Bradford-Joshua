@@ -2,14 +2,19 @@ body {
   background-color: black;
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
 .topbuttons {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .bottombuttons {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .gamemenu {
