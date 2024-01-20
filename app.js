@@ -22,6 +22,7 @@ let sequence = [];
 let playerSequence = [];
 let level = 0;
 let sequenceIndex = 0;
+
 const brighterColors = new Map([
   [greenButton, "#03ac13"],
   [redButton, "#c30010"],
@@ -62,12 +63,12 @@ function displaySequence() {
       let button = sequence[sequenceIndex];
       flashButton(button);
       sequenceIndex++;
-      setTimeout(displaySequence, 500);
+      setTimeout(displaySequence, 800);
     } else if (level >= 10 && level <= 20) {
       let button = sequence[sequenceIndex];
       flashButton(button);
       sequenceIndex++;
-      setTimeout(displaySequence, 100);
+      setTimeout(displaySequence, 600);
     }
   } else {
     sequenceIndex = 0;
@@ -89,11 +90,20 @@ function enableUserInput() {
   buttons.forEach((button) => {
     button.addEventListener("click", userInput);
   });
+
+  buttons.forEach((button) => {
+    button.addEventListener("touchstart", userInput);
+  });
+  
 }
 
 function disableUserInput() {
   buttons.forEach((button) => {
     button.removeEventListener("click", userInput);
+  });
+
+  buttons.forEach((button) => {
+    button.removeEventListener("touchstart", userInput);
   });
 }
 
