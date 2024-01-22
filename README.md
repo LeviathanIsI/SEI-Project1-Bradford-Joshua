@@ -81,9 +81,9 @@
 
 ### Built With
 
-* [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
-* [![CSS][https://en.wikipedia.org/wiki/CSS]][JQuery-url]
-* [![JS][https://www.javascript.com/]][JQuery-url]
+* [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
+* [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
+* [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
