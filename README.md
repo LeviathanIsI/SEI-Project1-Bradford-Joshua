@@ -81,7 +81,7 @@
 
 ### Built With
 
-* [![HTML5][https://html.com/html5/]][JQuery-url]
+* [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 * [![CSS][https://en.wikipedia.org/wiki/CSS]][JQuery-url]
 * [![JS][https://www.javascript.com/]][JQuery-url]
 
@@ -221,6 +221,3 @@ Joshua Bradford - ([LinkedIn](https://www.linkedin.com/in/joshua-bradford-0b9711
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com
-[HTML5]: https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/512px-HTML5_Badge.svg.png?20110131171049
-[CSS]: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/512px-CSS3_logo.svg.png?20210705212817
-[JS]: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Javascript-shield.svg/397px-Javascript-shield.svg.png?20180912181046
