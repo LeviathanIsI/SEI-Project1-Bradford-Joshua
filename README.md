@@ -75,7 +75,7 @@
 
 ## About The Project
 
-[![Simon][product-screenshot]](https://i.imgur.com/dCRadE2.png)
+[![Simon][product-screenshot]]([https://i.imgur.com/dCRadE2.png](https://leviathanisi.github.io/SEI-Project1-Bradford-Joshua/))
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -194,7 +194,7 @@ Joshua Bradford - ([LinkedIn](https://www.linkedin.com/in/joshua-bradford-0b9711
 [license-url]: https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/joshua-bradford-0b97111a6
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://i.imgur.com/dCRadE2.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
