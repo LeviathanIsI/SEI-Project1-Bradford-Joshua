@@ -179,16 +179,6 @@ Joshua Bradford - ([LinkedIn](https://www.linkedin.com/in/joshua-bradford-0b9711
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-- []()
-- []()
-- []()
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
