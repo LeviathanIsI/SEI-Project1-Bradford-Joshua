@@ -32,10 +32,6 @@
 <h3 align="center">Simon</h3>
 
   <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua/issues">Report Bug</a>
     ·
