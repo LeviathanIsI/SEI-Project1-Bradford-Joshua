@@ -37,8 +37,6 @@
     <a href="https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua">View Demo</a>
-    ·
     <a href="https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua/issues">Report Bug</a>
     ·
     <a href="https://github.com/LeviathanIsI/SEI-Project1-Bradford-Joshua/issues">Request Feature</a>
@@ -81,9 +79,9 @@
 
 ### Built With
 
-* [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
-* [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
-* [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
+- [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
+- [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
+- [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
