@@ -94,7 +94,6 @@ function enableUserInput() {
   buttons.forEach((button) => {
     button.addEventListener("touchstart", userInput);
   });
-  
 }
 
 function disableUserInput() {
