@@ -119,10 +119,11 @@ This is an example of how to list things you need to use the software and how to
 
 ## User stories
 
-- Story
-- Story
-- Story
-- Story
+- As a user, I want to see the color of the lights I need to press
+- As a user, I want to hear a different sound for each color
+- As a user, I want there to be a slight delay that gets progressively shorter after x amount of rounds
+- As a user, I would expect the game to end if I don't start entering the correct order in enough time
+- As a user, I would expect the game to fail and start over if I don't go in the correct order
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
