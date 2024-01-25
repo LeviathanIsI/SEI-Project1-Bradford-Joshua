@@ -139,11 +139,10 @@ This is an example of how to list things you need to use the software and how to
 
 ## Unsolved Problems/Major Hurdles
 
-1.
-2.
-3.
-4.
-5.
+1. I wasn't able to do any touch screen testing as it appears all browsers (browser and mobile) inherently have touch ability
+2. I wasn't able to implement a timer function, I could get the timer to reset after each button click.
+3. Along with the above, I was able to implement a timer before the initial button press when entering the player sequence.
+4. Implementing the sequence functionality was a little tricker than I expected but I was able to get it work after some research and testing.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
