@@ -71,6 +71,11 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
+## Features
+1. Start Button
+2. Restart Button
+3. Classic Simon sounds
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
